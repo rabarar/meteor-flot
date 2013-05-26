@@ -4,6 +4,8 @@
     "branch": "master"
   },
   "packages": {
-    "flot": {}
+    "flot": {},
+    "proxino": {},
+    "githubReadme" : {}
   }
 }
