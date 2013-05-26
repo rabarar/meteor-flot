@@ -12,12 +12,12 @@ $ cd app/directory
 $ mrt add flot
 ```
 
-## Configuration
-
-
-
 ## Usage
 
-
+See flot Official Documentation : https://github.com/flot/flot/blob/master/API.md
 
 ## Example
+
+``` sh
+
+```
