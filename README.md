@@ -35,3 +35,4 @@ $ mrt
 ### TODOS
 * add tooltips package
 * create template helpers for flot creation
+* add unit tests
