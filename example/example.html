@@ -1,0 +1,151 @@
+<head>
+  <title>meteor-flot live demo</title>
+</head>
+
+<body>
+  {{> flot}}
+</body>
+
+<template name="flot">
+    <div class="row-fluid">
+        <h1>meteor-flot live demo</h1>
+    </div>
+	<div class="row-fluid">
+		<a href="https://github.com/austinrivas/meteor-flot" class="btn btn-warning">Github</a>
+		<a href="https://atmosphere.meteor.com/package/flot" class="btn btn-danger">Atmosphere</a>
+        <a href="https://github.com/austinrivas" class="btn btn-success">Austin Rivas</a>
+	</div>
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="box">
+                <div class="box-title">
+                    <h3>
+                        Read Me
+                    </h3>
+                </div>
+                <div class="box-content">
+                    {{#markdown}}
+                        {{githubReadme name="meteor-flot" owner="austinrivas"}}
+                    {{/markdown}}
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="row-fluid">
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Basic chart
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-1" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Line chart
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-2" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="row-fluid">
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Live update
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <p>
+	                    <strong>Set custom update interval (ms):</strong>
+	                    <input type="text" name="updateInterval" id="updateInterval" class='input-mini'>
+	                    <a href="javascript:void()" class='btn btn-success'>Set interval</a>
+	                </p>
+	                <div id="flot-3" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Bar charts
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div class="btn-toolbar" style="margin-top:0;">
+	                    
+	                    <div class="btn-group graphControls">
+	                        <input type="button" value="Bars" class='btn btn-warning'>
+	                        <input type="button" value="Lines" class='btn btn-danger'>
+	                        <input type="button" value="Lines with steps" class='btn btn-success'>
+	                    </div>
+	                </div>
+	                <div id="flot-4" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="row-fluid">
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Pie with legend
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-5" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Pie without legend
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-6" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="row-fluid">
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Labels within pie
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-7" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="span6">
+	        <div class="box">
+	            <div class="box-title">
+	                <h3>
+	                    Donut
+	                </h3>
+	            </div>
+	            <div class="box-content">
+	                <div id="flot-8" class='flot' style="width:600px;height:300px"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</template>
