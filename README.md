@@ -19,7 +19,7 @@ $ mrt add flot
 See flot Official Documentation : https://github.com/flot/flot/blob/master/API.md
 
 ## Example
-### <a href="http://meteor-flot-live-demo.meteor.com">meteor-flot live demo</a>
+### <a href="http://meteor-flot-example.meteor.com">meteor-flot live example</a>
 
 To run example locally
 ``` sh
