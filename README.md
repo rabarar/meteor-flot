@@ -14,9 +14,7 @@ $ cd app/directory
 $ mrt add flot
 ```
 
-## Dependencies
-
-### Meteor Packages
+## Meteor Packages
 * jQuery ( included )
 
 ## Usage
