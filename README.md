@@ -17,7 +17,7 @@ $ mrt add flot
 ## Dependencies
 
 ### Meteor Packages
-jQuery ( included )
+* jQuery ( included )
 
 ## Usage
 
