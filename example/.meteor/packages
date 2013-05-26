@@ -8,3 +8,5 @@ insecure
 preserve-inputs
 bootstrap
 flot
+proxino
+http
