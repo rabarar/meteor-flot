@@ -1,0 +1,9 @@
+{
+    "name": "flot",
+    "description": "flot is a library for jQuery, with a focus on simple usage, attractive looks and interactive features",
+    "homepage": "https://github.com/austinrivas/meteor-flot",
+    "author": "Austin Rivas  (https://github.com/austinrivas)",
+    "version": "1.0.0",
+    "git": "https://github.com/austinrivas/meteor-flot.git",
+    "packages" : {}
+}
