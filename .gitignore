@@ -42,3 +42,5 @@ Thumbs.db
 */*/.meteor/local
 
 .idea/*
+
+smart.lock
