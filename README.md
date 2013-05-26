@@ -23,7 +23,7 @@ See flot Official Documentation : https://github.com/flot/flot/blob/master/API.m
 
 To run example locally
 ``` sh
-$ git clone git clone git://github.com/austinrivas/meteor-flot.git
+$ git clone git://github.com/austinrivas/meteor-flot.git
 $ cd meteor-flot/example
 $ mrt
 ```
