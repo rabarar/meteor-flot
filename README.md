@@ -31,3 +31,7 @@ $ git clone git://github.com/austinrivas/meteor-flot.git
 $ cd meteor-flot/example
 $ mrt
 ```
+
+### TODOS
+* add tooltips package
+* create template helpers for flot creation
