@@ -1,7 +1,9 @@
-flot
+meteor-flot
 ====
 
 flot is a pure JavaScript plotting library for jQuery, with a focus on simple usage, attractive looks and interactive features.
+
+Requires Meteorite : https://github.com/oortcloud/meteorite
 
 flot Official Documentation : https://github.com/flot/flot/blob/master/API.md
 
@@ -16,4 +18,12 @@ $ mrt add flot
 
 See flot Official Documentation : https://github.com/flot/flot/blob/master/API.md
 
-## <a href="http://meteor-flot-live-demo.meteor.com">meteor-flot live demo</a>
+## Example
+### <a href="http://meteor-flot-live-demo.meteor.com">meteor-flot live demo</a>
+
+To run example locally
+``` sh
+$ git clone git clone git://github.com/austinrivas/meteor-flot.git
+$ cd meteor-flot/example
+$ mrt
+```
