@@ -24,9 +24,12 @@
                     </h3>
                 </div>
                 <div class="box-content">
-                    {{#markdown}}
-                        {{githubReadme name="meteor-flot" owner="austinrivas"}}
-                    {{/markdown}}
+                    {{getGithubReadme name="meteor-maskedInput" owner="austinrivas"}}
+                    {{#if githubReadme}}
+                        {{{githubReadme}}}
+                    {{else}}
+                        Loading...
+                    {{/if}}
                 </div>
             </div>
         </div>
