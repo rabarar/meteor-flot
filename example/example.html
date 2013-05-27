@@ -15,25 +15,6 @@
 		<a href="https://atmosphere.meteor.com/package/flot" class="btn btn-danger">Atmosphere</a>
         <a href="https://github.com/austinrivas" class="btn btn-success">Austin Rivas</a>
 	</div>
-    <div class="row-fluid">
-        <div class="span12">
-            <div class="box">
-                <div class="box-title">
-                    <h3>
-                        Read Me
-                    </h3>
-                </div>
-                <div class="box-content">
-                    {{getGithubReadme name="meteor-maskedInput" owner="austinrivas"}}
-                    {{#if githubReadme}}
-                        {{{githubReadme}}}
-                    {{else}}
-                        Loading...
-                    {{/if}}
-                </div>
-            </div>
-        </div>
-    </div>
 	<div class="row-fluid">
 	    <div class="span6">
 	        <div class="box">
@@ -151,4 +132,23 @@
 	        </div>
 	    </div>
 	</div>
+	<div class="row-fluid">
+        <div class="span12">
+            <div class="box">
+                <div class="box-title">
+                    <h3>
+                        Read Me
+                    </h3>
+                </div>
+                <div class="box-content">
+                    {{getGithubReadme name="meteor-maskedInput" owner="austinrivas"}}
+                    {{#if githubReadme}}
+                        {{{githubReadme}}}
+                    {{else}}
+                        Loading...
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
