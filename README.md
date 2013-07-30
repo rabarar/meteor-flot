@@ -1,7 +1,4 @@
-<a href="https://github.com/austinrivas/meteor-flot">meteor-flot</a>
-====
-
-flot is a pure JavaScript plotting library for jQuery, with a focus on simple usage, attractive looks and interactive features.
+Flot is a pure JavaScript plotting library for jQuery, with a focus on simple usage, attractive looks and interactive features.
 
 Requires Meteorite : https://github.com/oortcloud/meteorite
 
