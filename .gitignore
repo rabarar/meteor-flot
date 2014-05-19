@@ -44,3 +44,4 @@ Thumbs.db
 .idea/*
 
 smart.lock
+.build*

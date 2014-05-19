@@ -1,8 +1,5 @@
 if (Meteor.isClient) {
 
-    Proxino.key = "1WSzwlGhsocB-hDA0-iHUg";
-    Proxino.track_errors();
-
     Template.flot.rendered = function () {
         // Flot
         var d1 = [];
